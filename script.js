@@ -3,6 +3,8 @@ var finish;
 var score;
 var scoreText;
 
+document.addEventListener("keydown", keyDown);
+
 function load(){
     score = 0;
     player = document.getElementById("player1");
